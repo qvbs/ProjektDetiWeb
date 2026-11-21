@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background-color: #eeeeF8;
+    font-family: Arial;
+}
+
+.container{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #202438;
+    display: flex;
+    align-items: center;
+}
+.Naglowek{
+    color: white;
+    padding: 5px;
+    margin-left: 30px;
+}
+.notatnik_ikona{
+    width: 70px;
+    height: 70px;
+    margin-left: 30px;
+}
+.formularz {
+    width: 90%;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.formularz h1 {
+    color: #202438;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.formularz form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.formularz label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.formularz input,
+.formularz textarea,
+.formularz select {
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.formularz textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.formularz button {
+    width: 150px;
+    padding: 12px;
+    background-color: #5836CC;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}

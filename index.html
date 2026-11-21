@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notatnik z wyszukiwarką</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" 
+    crossorigin="anonymous">
+    </script>
+    <script>
+        $(function(){
+            
+        });
+    </script>
+    <style>
+        
+    </style>
+</head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <img class="notatnik_ikona" src="notatnik_ikona.png" alt="Notatnik ikona">
+
+                <h1 class="Naglowek">Notatnik</h1>
+            </header>
+            <section class="formularz">
+                <h1>Dodaj Notatkę</h1>
+                <form>
+                    <label for="tytul">Tytuł:</label>
+                        <input type="text" id="tytul">
+                    <label for="tresc">Treść:</label>
+                        <textarea name="tresc" id="tresc" maxlength="40"></textarea>
+                    <label for="Kategoria">Kategoria:</label>
+                    <select name="Kategoria" id="kategoria">
+                        <option value="szkoła">Szkoła</option>
+                        <option value="dom">Dom</option>
+                        <option value="praca">Praca</option>
+                    </select>
+                    <button type="submit">Zapisz</button>
+                </form>
+            </section>
+        </div>
+    </body>
+</html>
